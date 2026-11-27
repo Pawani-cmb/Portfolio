@@ -119,12 +119,12 @@ img {
     transition: 0.3s;
 }
 
-.btn-primary-custom:hover {
+.btn-primary-button:hover {
     background-color: transparent;
     color: #BFA4F5;
 }
 
-.btn-outline-custom {
+.btn-outline-button {
     color: #FFFFFF;
     padding: 12px 25px;
     border-radius: 10px;
@@ -264,7 +264,7 @@ img {
 
 .section-kicker {
     color: #BFA4F5;
-    font-size: 14px;
+    font-size: 18px;
     font-weight: 600;
     letter-spacing: 2px;
     margin-bottom: 15px;
@@ -288,10 +288,54 @@ img {
 
 .about-text {
     color: #B8C2D9;
-    font-size: 16px;
+    font-size: 18px;
     line-height: 1.9;
     max-width: 850px;
 }
+
+
+.about-section {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about-image-wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+}
+
+.about-photo {
+    width: 100%;
+    max-width: 400px;
+    height: 480px;
+    object-fit: cover;
+    object-position: center;
+    border-radius: 25px;
+    border: 2px solid #BFA4F5;
+    box-shadow: 0 0 35px rgba(191, 164, 245, 0.2);
+}
+
+.about-content {
+    padding: 20px;
+}
+
+.about-content h2 {
+    color: #FFFFFF;
+    font-size: 42px;
+    font-weight: 700;
+    margin-bottom: 25px;
+    text-transform: uppercase;
+}
+
+.about-content p:not(.section-kicker) {
+    color: #B8C2D9;
+    font-size: 16px;
+    line-height: 1.8;
+    margin-bottom: 20px;
+}
+
 
 .skills-list {
     display: flex;
