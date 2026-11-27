@@ -321,6 +321,7 @@ img {
     border-radius: 15px;
     transition: 0.3s;
 }
+
 .project-item:hover {
     border-color: #BFA4F5;
 }
@@ -356,25 +357,26 @@ img {
 
 .contact-details {
     display: flex;
-   flex-direction: column;
+    flex-direction: column;
     gap: 20px;
     max-width: 600px;
 
 }
 
 .contact-details p {
-  background-color: #0B1740;
-  padding: 18px 25px;
-  border: 1px solid rgba(191, 164, 245, 0.2);
-  border-radius: 12px;
-  color: #B8C2D9;
-  margin: 0;
+    background-color: #0B1740;
+    padding: 18px 25px;
+    border: 1px solid rgba(191, 164, 245, 0.2);
+    border-radius: 12px;
+    color: #B8C2D9;
+    margin: 0;
 }
 
 .contact-details strong {
     color: #BFA4F5;
     margin-right: 10px;
 }
+
 .contact-details a {
     color: #B8C2D9;
 }
@@ -405,3 +407,4 @@ img {
     border: 3px solid #BFA4F5;
     box-shadow: 0 0 35px rgba(191, 164, 245, 0.2);
 }
+
