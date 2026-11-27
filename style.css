@@ -293,22 +293,6 @@ img {
     max-width: 850px;
 }
 
-.institute {
-    color: #B8C2D9;
-    font-size: 15px;
-    margin-bottom: 15px;
-}
-
-.education-status {
-    display: inline-block;
-    color: #BFA4F5;
-    background-color: rgba(191, 164, 245, 0.1);
-    padding: 6px 14px;
-    border-radius: 20px;
-    font-size: 13px;
-    margin-bottom: 0;
-}
-
 .skills-list {
     display: flex;
     flex-wrap: wrap;
