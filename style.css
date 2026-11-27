@@ -321,6 +321,9 @@ img {
     border-radius: 15px;
     transition: 0.3s;
 }
+.project-item:hover {
+    border-color: #BFA4F5;
+}
 
 .project-item h3 {
     color: #FFFFFF;
@@ -351,35 +354,28 @@ img {
     border: 1px solid rgba(191, 164, 245, 0.3);
 }
 
-.contact-info {
+.contact-details {
     display: flex;
-    flex-wrap: wrap;
+   flex-direction: column;
     gap: 20px;
+    max-width: 600px;
 
 }
 
-.contact-item {
-    background-color: #0B1740;
-    padding: 20px;
-    border: 1px solid rgba(191, 164, 245, 0.2);
-    border-radius: 12px;
-
+.contact-details p {
+  background-color: #0B1740;
+  padding: 18px 25px;
+  border: 1px solid rgba(191, 164, 245, 0.2);
+  border-radius: 12px;
+  color: #B8C2D9;
+  margin: 0;
 }
 
-.contact-item h3 {
+.contact-details strong {
     color: #BFA4F5;
-    font-size: 18px;
-    margin-bottom: 10px;
-
+    margin-right: 10px;
 }
-
-.contact-item p {
-    color: #B8C2D9;
-    font-size: 15px;
-    margin-bottom: 0;
-}
-
-.contact-item a {
+.contact-details a {
     color: #B8C2D9;
 }
 
